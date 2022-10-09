@@ -1,0 +1,93 @@
+*{
+margin: 0px ;
+padding:0px ;
+}
+
+
+.businessimg{
+    height: 24rem;
+    width: 40%;
+
+}
+
+.maintext , .interests , .buttonBox{
+    height: 20rem;
+    width: 30%;
+    margin: auto;
+    text-align: left;
+    background-color: rgb(40, 39, 39);
+    color: white;
+    padding: 12px;
+    border: none;
+
+}
+
+.buttonBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+
+
+}
+
+
+
+
+
+
+.businessimg{
+    background: url('./imgs/woman-3116587_1920.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24rem;
+    width: 30%;
+    margin:0px auto;
+    padding: 12px;
+    
+
+}
+
+.myBio{
+
+    width: 30%;
+    margin:0px auto;
+    padding: 12px;
+    background-color: rgb(40, 39, 39);
+    color: white;
+
+}
+
+.newBtn{
+    height: 3rem;
+    width: 43%;
+    background-color: aliceblue;
+    color: black;
+    margin: 1rem;
+    padding: 12px;
+    border-radius: 9px;
+    
+}
+.blueBtn{
+    background-color: rgba(56, 183, 218, 0.944);
+    color:white;
+
+}
+
+
+.newBtn:hover{
+    border: 2px solid white;
+    color:white;
+    background-color: black;
+}
+.blueBtn:hover{
+    border: 2px solid  rgba(56, 183, 218, 0.944);
+    color:rgba(56, 183, 218, 0.944);
+    background-color: black;
+}
+
+
+
+
+
